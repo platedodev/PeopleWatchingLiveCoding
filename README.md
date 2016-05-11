@@ -2,6 +2,9 @@
 Just a bash script which creates a file (/tmp/live_users.txt).
 This file is updated with how many users are watching your channel.
 
+# How to use it?
+If you're streaming using OBS you can create a text source and choose this file /tmp/live_users.txt.
+
 # Installation
 Download this file, uncompress
 ```
@@ -16,8 +19,3 @@ Add this line on your crontab
 * * * * * /usr/bin/PeopleWatchingLiveCoding.sh # Viewers_Live_Coding_Cron
 ```
 and everything is done :).
-
-# How to use it?
-If you're streaming using OBS you can create a text source and choose this file /tmp/live_users.txt.
-
-
